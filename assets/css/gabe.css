@@ -1,13 +1,51 @@
 /* my css */
+/* Colors
+Primary: #FB3640
+Secondary: #2B2D42
+Alt: #8D99AE
+
+ */
+
 
 .bg-lg {
-    background-image: url('../img/work.jpg');
+    background-image: url('../img/mom-hero.jpg');
 }
 
 .bg-ab {
     background-image: url('../img/space.jpg')
 }
+.navbar-mom {
+  background-color: #FB3640;
+  color: #fff;
+}
+.btn-mom {
+  background-color: #FB3640;
+  color: #fff;
+}
+.btn-mom-2 {
+  color: #fff;
+  background-color: #2B2D42;
+}
+.btn-mom-2:hover {
+  color: #fff;
+  background-color: #2B2D42;
+}
+.btn-mom:hover {
+  background-color: #FB3640;
+}
+.card {
+  max-width: 800px;
+}
+a, a:hover, a:focus {
+    color: #2B2D42;
+}
+.navbar .dropdown-menu li > a:hover, .navbar .dropdown-menu li > a:focus, .navbar.navbar-default .dropdown-menu li > a:hover, .navbar.navbar-default .dropdown-menu li > a:focus {
+    color: rgb(255, 255, 255);
+    background-color: #2B2D42;
+}
 
+
+/* Social Buttons */
 .btn-social{position:relative;padding-left:44px;text-align:left;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.btn-social>:first-child{position:absolute;left:0;top:0;bottom:0;width:32px;line-height:34px;font-size:1.6em;text-align:center;border-right:1px solid rgba(0,0,0,0.2)}
 .btn-social.btn-lg{padding-left:61px}.btn-social.btn-lg>:first-child{line-height:45px;width:45px;font-size:1.8em}
 .btn-social.btn-sm{padding-left:38px}.btn-social.btn-sm>:first-child{line-height:28px;width:28px;font-size:1.4em}
